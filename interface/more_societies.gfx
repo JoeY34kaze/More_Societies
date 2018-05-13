@@ -1,0 +1,23 @@
+##########################################
+# all pictures regarding more societies  #
+##########################################
+
+spriteTypes = {
+    #artifacts
+	spriteType = {
+		name = "GFX_chad_cock"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\chad_cock.dds"
+	}
+	spriteType = {
+		name = "GFX_chad_cock_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\chad_cock_small.dds"
+	}
+	
+
+    #events
+	spriteType = {
+		name = "GFX_evt_ms.0001"
+		texturefile = "gfx\\event_pictures\event_0001.dds"
+		allwaystransparent = yes
+	}
+}
