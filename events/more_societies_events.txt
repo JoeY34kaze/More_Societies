@@ -1,10 +1,15 @@
 namespace = ms
-character_event = {
-    id = ms.0001
-    desc = ms_evt_desc_0001
-    picture = GFX_evt_ms.0001
-
+narrative_event = {
+        id = ms.0001
+        title = ms_evt_title_0001
+        desc = ms_evt_desc_0001
+        picture = GFX_evt_ms.0001
+	prisoner = no
+	is_married = yes
+        only_playable=yes
 	trigger = {
+
+
 
 		spouse = {
                         is_female = yes
@@ -17,17 +22,21 @@ character_event = {
 	}
 
 
-    option = {
+        option = {
 		name = ms_evt_opt_0001
 		spouse = {
-            random_list = {
-                50 = {
-                        add_trait = lustful
-                }
-                50 = {
-                        add_trait = wounded
-                }
-            }
+                        random_list = {
+                                90 = {
+                                        add_trait = lustful
+                                }
+                                30 = {
+                                        add_trait = wounded
+                                }
+                        }
 		}
+                set_character_flag = event_chad
+
 	}
 }
+
+
