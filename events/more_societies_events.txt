@@ -1,0 +1,18 @@
+namespace = ms
+character_event = {
+    id = ms.0001
+    desc = ms_evt_desc_0001
+    option = {
+		name = ms_evt_opt_0001
+		spouse = {
+            random_list = {
+                50 = {
+                        add_trait = lustful
+                }
+                50 = {
+                        add_trait = wounded
+                }
+            }
+		}
+	}
+}
